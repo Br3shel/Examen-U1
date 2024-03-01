@@ -1,0 +1,61 @@
+{% extends './base.html' %}
+
+{% block title%}Habilidades{% endblock %}
+
+{% block body %}
+
+<div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Habilidades profecionales</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold text-body-emphasis">Ingeniería en sistemas computacionales</h2>
+        <p class="text-body-secondary">Abilidades de resolución de problemas para diseñar y construir soluciones prácticas y eficientes para desafíos de la vida real.</p>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#collection" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Lenguajes de programación</h4>
+            <p class="text-body-secondary">Conocimientos básicos en Python, c# y conocimientos avanzados en Java.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#gear-fill" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Base de datos</h4>
+            <p class="text-body-secondary">Uso de gestores de base de datos como: SQLite, XAMPP y MySQL.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#speedometer" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">framework</h4>
+            <p class="text-body-secondary">Flask, Bootstrap y Django.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#table" />
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Idiomas</h4>
+            <p class="text-body-secondary">Compresión del idioma ingles intermedio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

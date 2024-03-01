@@ -1,13 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=}, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>
-        Buenos dias
-    </h1>
-</body>
-</html>
+{% extends './base.html' %}
+
+{% block title%}Index{% endblock %}
+
+{% block body %}
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/static/imagenes/js.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Portafolio personal: Brishel Acosta</h1>
+        <p class="lead">Estudiante de la carrera en ingeniería en sistemas, apasionado por la tecnología.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://github.com/Br3shel" class="btn btn-primary btn-lg px-4 me-md-2">Git up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
